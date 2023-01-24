@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "dubai";
+  src: url("../webfonts/dubai-fonts/Dubai-Regular.woff2") format("woff2"),
+    url("../webfonts/dubai-fonts/Dubai-Regular.woff") format("woff"),
+    url("../webfonts/dubai-fonts/Dubai-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "dubai";
+  src: url("../webfonts/dubai-fonts/Dubai-Medium.woff2") format("woff2"),
+    url("../webfonts/dubai-fonts/Dubai-Medium.woff") format("woff"),
+    url("../webfonts/dubai-fonts/Dubai-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "rb";
+  src: url("../webfonts/dubai-fonts/Dubai-Bold.woff2") format("woff2"),
+    url("../webfonts/dubai-fonts/Dubai-Bold.woff") format("woff"),
+    url("../webfonts/dubai-fonts/Dubai-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
