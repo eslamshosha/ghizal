@@ -513,6 +513,7 @@ nav figure {
 .product-slider .swiper-slide-active .product-img img {
   transform: scale(1.25);
   z-index: 2;
+  position: relative;
 }
 .product-img::after:not(.swiper-slide-active .product-img::after) {
   background-color: transparent;
@@ -874,7 +875,6 @@ a.social-link:hover {
 /*                    menu in phone size                      */
 
 @media (max-width: 991px) {
-
   .sm-icons {
     display: flex;
   }
@@ -975,7 +975,7 @@ a.social-link:hover {
     left: auto;
     transform: none;
   }
-  .add-to .dropdown-content::before{
+  .add-to .dropdown-content::before {
     inset-inline-start: 7px;
     transform: none;
   }
