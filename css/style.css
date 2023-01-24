@@ -515,6 +515,9 @@ nav figure {
   z-index: 2;
   position: relative;
 }
+.product-slider .swiper-slide-active {
+  z-index: 2;
+}
 .product-img::after:not(.swiper-slide-active .product-img::after) {
   background-color: transparent;
 }
