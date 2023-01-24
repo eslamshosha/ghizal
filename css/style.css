@@ -516,11 +516,11 @@ nav figure {
   z-index: 3;
   position: relative;
 }
+.product-img::after:not(.swiper-slide-active .product-img::after) {
+  background-color: transparent;
+}
 .product-slider .swiper-slide-active {
   z-index: 3;
-}
-.product-img::after:not(.swiper-slide-active .product-img::after) {
-  display: none;
 }
 .product-slider .swiper-container {
   padding: 40px 0;
