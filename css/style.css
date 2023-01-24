@@ -357,14 +357,14 @@ nav figure {
   content: "";
   font-family: "line Awesome Free";
   font-weight: 900;
-  color: var(--black-color);
+  color: var(--white-color);
 }
-.close-bars::after {
+/* .close-bars::after {
   content: "";
   font-family: "line Awesome Free";
   font-weight: 900;
   color: var(--main-hover);
-}
+} */
 /*             top header     */
 /*                           big-banner section                          */
 .big-banner-section {
