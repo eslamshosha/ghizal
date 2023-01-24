@@ -506,25 +506,28 @@ nav figure {
   inset: 0;
   width: 100%;
   height: 100%;
+  z-index: 2;
   background-color: rgba(255, 255, 255, 0.7);
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 .product-slider .swiper-slide-active .product-img img {
   transform: scale(1.25);
-  z-index: 2;
+  z-index: 3;
   position: relative;
 }
 .product-slider .swiper-slide-active {
-  z-index: 2;
+  z-index: 3;
 }
 .product-img::after:not(.swiper-slide-active .product-img::after) {
-  background-color: transparent;
+  display: none;
 }
 .product-slider .swiper-container {
   padding: 40px 0;
 }
 .product-img img {
+  position: relative;
+  z-index: 1;
   width: 100%;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
