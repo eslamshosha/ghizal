@@ -14,19 +14,19 @@ $(document).ready(function () {
   });
 
   //phone size menu onclick
-  if ($(window).width() <= 991) {
-    $("#menu-id").click(function (e) {
-      e.preventDefault();
-      $(".navgition").toggleClass("reset-left");
-      $("body").addClass("overflow");
-      $(".overlay-box2").fadeToggle(300);
-    });
-    $(".nav-head .close-btn, .overlay-box2").click(function () {
-      $(".navgition").removeClass("reset-left");
-      $(".overlay-box2").fadeOut(300);
-      $("body").removeClass("overflow");
-    });
-  }
+  // if ($(window).width() <= 991) {
+  // }
+  $("#menu-id").click(function (e) {
+    e.preventDefault();
+    $(".navgition").toggleClass("reset-left");
+    $("body").toggleClass("overflow");
+    $(".menu-bars").toggleClass("open-bars");
+  });
+  $(".nav-head .close-btn").click(function () {
+    $(".navgition").removeClass("reset-left");
+    $(".menu-bars .bars").toggleClass("open-bars");
+    $("body").removeClass("overflow");
+  });
   //fixed nav
   $stickyNav = $("header");
   $(window).on("scroll load", function () {
